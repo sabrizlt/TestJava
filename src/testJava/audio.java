@@ -22,12 +22,12 @@ public class audio extends elementoMultimediale {
 	}
 	
 	public void AlzaVolume(int value) {
-		System.out.println("il volume + stato alzato di:" + value);
+		System.out.println("il volume è stato alzato di:" + value);
 		this.volume += value;
 	}
 	
 	public void AbbassaVolume(int value) {
-		System.out.println("il volume - stato abbassato di:" + value);
+		System.out.println("il volume è stato abbassato di:" + value);
 		this.volume -= value;
 	}
 	
