@@ -17,7 +17,7 @@ public class audio extends elementoMultimediale {
 			System.out.println(Titolo.toString());
 		}
 		for(int i = 0; i< this.volume; i++ ) {
-			System.out.print ("!");
+			System.out.println ("!");
 		}
 	}
 	

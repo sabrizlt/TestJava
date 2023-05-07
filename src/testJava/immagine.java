@@ -3,9 +3,9 @@ package testJava;
 public class immagine extends elementoMultimediale implements luminosità{
 	int luminosità = 5;
 
-	public immagine(String titolo, int lum) {
+	public immagine(String titolo, int luminosità) {
 		super(titolo);
-		this.luminosità = lum;
+		this.luminosità = luminosità;
 	}
 	
 	

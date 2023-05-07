@@ -3,13 +3,13 @@ package testJava;
 
 public class video extends elementoMultimediale{
 	int durata = 0;
-	int luminonsita = 0;
+	int luminonsità = 0;
 	int volume = 0;
-	public video(String titolo, int durata,int volume ,int lum) {
+	public video(String titolo, int durata, int volume , int luminosità) {
 		super(titolo);
 		this.durata = durata;
 		this.volume = volume;
-		this.luminonsita = lum;
+		this.luminonsità = luminosità;
 	}
 	
 	public void Play() {
@@ -20,15 +20,19 @@ public class video extends elementoMultimediale{
 		for(int i = 0; i< this.volume; i++ ) {
 			System.out.println ("*");
 		}
+		for(int i = 0; i< this.luminonsità; i++ ){
+			System.out.println ("-");		}
 		
 	}
 	
 	public void alzaLuminosita(int value) {
-		this.luminonsita += value;
+		System.out.println("la luminosità è stata alzata di:" + value);
+		this.luminonsità += value;
 	}
 	
-	public void abbassLuminosita(int value) {
-		this.luminonsita -= value;
+	public void abbassaLuminosita(int value) {
+		System.out.println("la luminosità è stata abbassata di:" + value);
+		this.luminonsità -= value;
 	}
 	
 	
