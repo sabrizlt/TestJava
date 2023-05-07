@@ -91,7 +91,6 @@ public class Main {
 				System.out.println("di quanto vuoi abbassare la luminosità del video?");
 				String input4 = sc.nextLine();
 				listVideo[0].abbassaLuminosita(Integer.parseInt(input4));
-
 			case "8":
 				listImg[0].Show();
 				Menu();
